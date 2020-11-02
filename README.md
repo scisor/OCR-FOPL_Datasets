@@ -7,7 +7,8 @@ A | B | D | E | F | G | H | I | J | L | M | N | Q | R | T | U | Y | 0 | 1 | 2 | 
 &forall; | &exist; | &and; | &rarr; | &harr; | &not; |
 
 DataSets are divided in 2 group folders according to the resizing of every normalized character: 28x28 and 35x35. <br /> 
-Each group has 3 files: the original Trainset file, a TestSet file and an extra Trainset file of all rotated characters. 
+Each folder has a compressed .7z file that can be uncompressed with '7zip' open-source program.<br />
+Each compressed data-file contains 3 files: the original Trainset file, a TestSet file and an extra Trainset file of all rotated characters. 
 
 The form of Datasets is headless .csv (comma separated values) files with the following structure: <br />
 -In 28x28 Datasets each row is consisted of 784 binary values in decimal representation (sample) followed by 67 binary values (label). <br />
