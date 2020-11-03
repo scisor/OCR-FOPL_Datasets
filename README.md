@@ -14,4 +14,5 @@ The form of Datasets is headless .csv (comma separated values) files with the fo
 -In 28x28 Datasets each row is consisted of 784 binary values in decimal representation (sample) followed by 67 binary values (label). <br />
 -In 35x35 Datasets each row is consisted of 1225 binary values in decimal representation (sample) followed by 67 binary values (label). <br />
 
-Also, a Java class is provided that can visualize all the samples from Dataset.
+Also, the Java class 'CSVtools' is provided that contains help methods in order to visualize, extract and show stats of all the samples from Dataset.
+ In order to work properly, user must pass the dimension of target Dataset in the class Constructor and use any of the implemeted methods.
